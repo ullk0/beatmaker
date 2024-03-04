@@ -1,0 +1,147 @@
+.second {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 6% 9% 6% 9%;
+}
+
+.sbeat {
+    width: auto;
+    max-width: 50%;
+    height: 100%;
+
+    margin-left: -3%;
+}
+
+.sbeatimg {
+    height: 100%;
+    max-width: 100%;
+
+    object-fit: contain;
+}
+
+.scard {
+    box-sizing: border-box;
+
+    width: auto;
+    max-width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scardimg {
+    height: 100%;
+    max-width: 95%;
+
+    object-fit: contain;
+}
+
+/* КНОПКИ */
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 6% 9% 6% 9%;
+}
+
+.o1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+.o2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+.sb {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* БИТ */
+
+.sbrow11 {
+    z-index: 1;
+
+    rotate: 2.9deg;
+    transition: 0.3s rotate;
+}
+
+.sbrow12 {
+    rotate: -0.6deg;
+    transition: 0.3s rotate;
+}
+
+.sb:hover .sbrow11 {
+    rotate: -4deg;
+    transition: 0.3s rotate;
+}
+
+.sb:hover .sbrow12 {
+    rotate: 2deg;
+    transition: 0.3s rotate;
+}
+
+.sb:active .tbstyle {
+    background-color: #000000;
+}
+
+.sb:active .tbstyle h1 {
+    color: #ffffff;
+}
+
+/* ОТКРЫТКА */
+
+.sbrow21 {
+    z-index: 1;
+
+    rotate: -7.8deg;
+    transition: 0.3s rotate;
+}
+
+.sbrow22 {
+    rotate: -0.6deg;
+    transition: 0.5s rotate;
+}
+
+.sb:hover .sbrow21 {
+    rotate: -4deg;
+    transition: 0.3s rotate;
+}
+
+.sb:hover .sbrow22 {
+    rotate: -2deg;
+    transition: 0.3s rotate;
+}

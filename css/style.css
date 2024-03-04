@@ -1,4 +1,6 @@
-@import url(main.css);
+@import url(ui-elements.css);
+@import url(first.css);
+@import url(second.css);
 
 @font-face {
     font-family: "HelveticaNeue";

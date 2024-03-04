@@ -1,0 +1,100 @@
+.first {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 6% 9% 6% 9%;
+}
+
+.fbkg {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+
+    width: 100%;
+    height: auto;
+}
+
+.fbkgm {
+    height: 100%;
+}
+
+.fm {
+    width: 100%;
+    height: 100%;
+}
+
+/* ЗАГОЛОВОК */
+
+.fb {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fbrow1 {
+    rotate: 1deg;
+    transition: 0.3s rotate;
+}
+
+.fbrow2 {
+    rotate: -3.31deg;
+    transition: 0.3s rotate;
+}
+
+.fb:hover .fbrow1 {
+    rotate: -3deg;
+    transition: 0.3s rotate;
+}
+
+.fb:hover .fbrow2 {
+    rotate: 1.5deg;
+    transition: 0.3s rotate;
+}
+
+.fb:active .tbstyle {
+    background-color: #000000;
+}
+
+.fb:active .tbstyle h1 {
+    color: #ffffff;
+}
+
+/* ИНФО */
+
+.finfo {
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+
+    display: flex;
+    gap: 2vw;
+}
+
+.info {
+    position: relative;
+}
+
+.infotext {
+    display: none;
+
+    max-width: 40vw;
+
+    position: relative;
+
+    border: 0.4vw solid #000000;
+    border-radius: 2vw;
+
+    padding: 2vw;
+    background-color: white;
+}
