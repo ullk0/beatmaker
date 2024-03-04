@@ -83,7 +83,6 @@
 }
 
 .sb {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,22 +94,22 @@
 .sbrow11 {
     z-index: 1;
 
-    rotate: 2.9deg;
+    rotate: 3deg;
     transition: 0.3s rotate;
 }
 
 .sbrow12 {
-    rotate: -0.6deg;
+    rotate: -1deg;
     transition: 0.3s rotate;
 }
 
 .sb:hover .sbrow11 {
-    rotate: -4deg;
+    rotate: -6deg;
     transition: 0.3s rotate;
 }
 
 .sb:hover .sbrow12 {
-    rotate: 2deg;
+    rotate: 4deg;
     transition: 0.3s rotate;
 }
 
@@ -127,21 +126,21 @@
 .sbrow21 {
     z-index: 1;
 
-    rotate: -7.8deg;
+    rotate: -6deg;
     transition: 0.3s rotate;
 }
 
 .sbrow22 {
-    rotate: -0.6deg;
+    rotate: 4deg;
     transition: 0.5s rotate;
 }
 
 .sb:hover .sbrow21 {
-    rotate: -4deg;
+    rotate: 3deg;
     transition: 0.3s rotate;
 }
 
 .sb:hover .sbrow22 {
-    rotate: -2deg;
+    rotate: 1deg;
     transition: 0.3s rotate;
 }

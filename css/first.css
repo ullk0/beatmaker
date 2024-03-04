@@ -4,23 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2vw;
 
     width: 100vw;
     height: 100vh;
 
     padding: 6% 9% 6% 9%;
-}
-
-.fbkg {
-    box-sizing: border-box;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2vw;
-
-    width: 100%;
-    height: auto;
 }
 
 .fbkgm {
