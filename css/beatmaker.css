@@ -32,18 +32,6 @@
     background: #FFF;
 }
 
-.samples {
-    box-sizing: border-box;
-
-    height: 100%;
-    width: 25%;
-
-    border-radius: 2.5vw;
-    border: 0.4vw solid #000;
-
-    background: #FFF;
-}
-
 /* ЗВУКОВЫЕ ДОРОЖКИ */
 
 .br {
@@ -64,8 +52,6 @@
 .ts {
     width: 2.6vw;
     aspect-ratio: 1 /1;
-
-    border: 0.4vw solid;
 }
 
 .tr {
@@ -80,32 +66,36 @@
 
 .r1 .tr,
 .r1 .ts {
-    border: #FF6EC5;
+    border: 0.4vw solid #FF6EC5;
     background: #FF6EC5;
 }
 
 .r2 .tr,
 .r2 .ts {
-    border: #3B7DF3;
+    border: 0.4vw solid #3B7DF3;
     background: #3B7DF3;
 }
 
 .r3 .tr,
 .r3 .ts {
-    border: #FF323A;
+    border: 0.4vw solid #FF323A;
     background: #FF323A;
 }
 
 .r4 .tr,
 .r4 .ts {
-    border: #75E658;
+    border: 0.4vw solid #75E658;
     background: #75E658;
 }
 
 .r5 .tr,
 .r5 .ts {
-    border: #FFD33D;
+    border: 0.4vw solid #FFD33D;
     background: #FFD33D;
+}
+
+.button-disabled {
+    background: none;
 }
 
 /* НАЗАД */
@@ -114,4 +104,70 @@
     position: absolute;
     bottom: 6vw;
     left: 6vw;
+}
+
+/* СЭМПЛЫ */
+
+.samples {
+    position: relative;
+
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 25%;
+
+    border-radius: 2.5vw;
+    border: 0.4vw solid #000;
+
+    background: #FFF;
+}
+
+#balloonimg {
+    height: 25%;
+    position: absolute;
+
+    left: 6%;
+    top: 3%;
+
+    rotate: 25deg;
+}
+
+#ballimg {
+    height: 20%;
+    position: absolute;
+
+    left: 45%;
+    top: 20%;
+
+    rotate: 30deg;
+}
+
+#bellimg {
+    height: 28%;
+    position: absolute;
+
+    left: 25%;
+    top: 36%;
+
+    rotate: 80deg;
+}
+
+#rulerimg {
+    height: 36%;
+    position: absolute;
+
+    left: -9%;
+    bottom: 7%;
+
+    rotate: -65deg;
+}
+
+#bananaimg {
+    height: 25%;
+    position: absolute;
+
+    right: 10%;
+    bottom: 6%;
+
+    rotate: -65deg;
 }
