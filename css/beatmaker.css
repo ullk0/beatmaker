@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
 
-    padding: 4%;
+    padding: 3%;
 }
 
 .beat {
@@ -19,24 +19,27 @@
     width: 75%;
 
     display: flex;
-    padding: 48px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 36px;
+    gap: 4%;
 
-    border-radius: 48px;
-    border: 5px solid #000;
+    padding: 2vw;
+
+    border-radius: 2.5vw;
+    border: 0.4vw solid #000;
 
     background: #FFF;
 }
 
 .samples {
+    box-sizing: border-box;
+
     height: 100%;
     width: 25%;
 
-    border-radius: 48px;
-    border: 5px solid #000;
+    border-radius: 2.5vw;
+    border: 0.4vw solid #000;
 
     background: #FFF;
 }
@@ -44,13 +47,71 @@
 /* ЗВУКОВЫЕ ДОРОЖКИ */
 
 .br {
+    width: 100%;
+
     display: flex;
-    align-items: center;
-    gap: 38px;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .tsg {
     display: flex;
     align-items: flex-start;
-    gap: 17px;
+    gap: 1vw;
+}
+
+.tr,
+.ts {
+    width: 2.6vw;
+    aspect-ratio: 1 /1;
+
+    border: 0.4vw solid;
+}
+
+.tr {
+    border-radius: 50%;
+}
+
+.ts {
+    border-radius: 0.6vw;
+}
+
+/* ЦВЕТА */
+
+.r1 .tr,
+.r1 .ts {
+    border: #FF6EC5;
+    background: #FF6EC5;
+}
+
+.r2 .tr,
+.r2 .ts {
+    border: #3B7DF3;
+    background: #3B7DF3;
+}
+
+.r3 .tr,
+.r3 .ts {
+    border: #FF323A;
+    background: #FF323A;
+}
+
+.r4 .tr,
+.r4 .ts {
+    border: #75E658;
+    background: #75E658;
+}
+
+.r5 .tr,
+.r5 .ts {
+    border: #FFD33D;
+    background: #FFD33D;
+}
+
+/* НАЗАД */
+
+.back {
+    position: absolute;
+    bottom: 6vw;
+    left: 6vw;
 }

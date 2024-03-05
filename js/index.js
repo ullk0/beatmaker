@@ -8,5 +8,4 @@ function toggleInfoVisibility() {
         document.getElementById("infotext").style.display = "block";
         document.getElementById("info").classList.add("button-active")
     }
-
 }
