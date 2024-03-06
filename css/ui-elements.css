@@ -45,6 +45,8 @@ p {
 
     width: 8vw;
     height: 8vw;
+
+    transition: 0.5s;
 }
 
 .buttons h1 {
@@ -53,7 +55,7 @@ p {
 }
 
 .buttons:hover {
-    rotate: -10deg;
+    rotate: -12deg;
     transition: 0.5s;
 }
 

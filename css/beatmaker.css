@@ -116,6 +116,8 @@
     height: 100%;
     width: 25%;
 
+    padding: 2vw;
+
     border-radius: 2.5vw;
     border: 0.4vw solid #000;
 
@@ -123,7 +125,9 @@
 }
 
 #balloonimg {
-    height: 25%;
+    object-fit: contain;
+
+    height: 14vw;
     position: absolute;
 
     left: 6%;
@@ -133,41 +137,53 @@
 }
 
 #ballimg {
-    height: 20%;
+    object-fit: contain;
+
+    height: 10vw;
     position: absolute;
 
     left: 45%;
-    top: 20%;
+    top: 23%;
 
     rotate: 30deg;
 }
 
 #bellimg {
-    height: 28%;
+    object-fit: contain;
+
+    height: 14.5vw;
     position: absolute;
 
-    left: 25%;
-    top: 36%;
+    left: 18%;
+    top: 38%;
 
     rotate: 80deg;
 }
 
 #rulerimg {
-    height: 36%;
+    object-fit: contain;
+
+    height: 18vw;
     position: absolute;
 
-    left: -9%;
+    left: -12%;
     bottom: 7%;
 
     rotate: -65deg;
 }
 
 #bananaimg {
-    height: 25%;
+    object-fit: contain;
+
+    height: 12vw;
     position: absolute;
 
     right: 10%;
     bottom: 6%;
 
     rotate: -65deg;
+}
+
+.disabled-sample-button {
+    background-color: rgba(0, 0, 0, 0) !important;
 }

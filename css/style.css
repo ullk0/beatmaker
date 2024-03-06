@@ -2,6 +2,7 @@
 @import url(first.css);
 @import url(second.css);
 @import url(beatmaker.css);
+@import url(cardeditor.css);
 
 @font-face {
     font-family: "HelveticaNeue";
