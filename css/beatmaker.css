@@ -45,12 +45,12 @@
 .tsg {
     display: flex;
     align-items: flex-start;
-    gap: 1vw;
+    gap: 0.5vw;
 }
 
 .tr,
 .ts {
-    width: 2.6vw;
+    width: 3vw;
     aspect-ratio: 1 /1;
 }
 
@@ -113,10 +113,16 @@
 
     box-sizing: border-box;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -763px;
+
     height: 100%;
     width: 25%;
 
-    padding: 2vw;
+    padding: 1.5vw;
 
     border-radius: 2.5vw;
     border: 0.4vw solid #000;
@@ -124,66 +130,121 @@
     background: #FFF;
 }
 
+.samples-balloon {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+}
+
 #balloonimg {
-    object-fit: contain;
-
-    height: 14vw;
-    position: absolute;
-
-    left: 6%;
-    top: 3%;
-
+    height: 13vw;
     rotate: 25deg;
 }
 
+.samples-ball {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: -16%;
+}
+
 #ballimg {
-    object-fit: contain;
+    height: 9vw;
+}
 
-    height: 10vw;
-    position: absolute;
+.samples-bell {
+    width: 100%;
 
-    left: 45%;
-    top: 23%;
+    display: flex;
+    justify-content: center;
 
-    rotate: 30deg;
+    margin-top: -2%;
 }
 
 #bellimg {
-    object-fit: contain;
+    height: 10vw;
+    rotate: 40deg;
+}
 
-    height: 14.5vw;
-    position: absolute;
+.samples-ruler {
+    width: 100%;
 
-    left: 18%;
-    top: 38%;
+    display: flex;
+    justify-content: flex-start;
 
-    rotate: 80deg;
+    margin-top: -20%;
 }
 
 #rulerimg {
-    object-fit: contain;
+    height: 22vw;
+}
 
-    height: 18vw;
-    position: absolute;
+.samples-banana {
+    width: 100%;
 
-    left: -12%;
-    bottom: 7%;
+    display: flex;
+    justify-content: flex-end;
 
-    rotate: -65deg;
+    margin-top: -70%;
 }
 
 #bananaimg {
-    object-fit: contain;
-
     height: 12vw;
-    position: absolute;
-
-    right: 10%;
-    bottom: 6%;
-
     rotate: -65deg;
 }
 
 .disabled-sample-button {
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ИНДИКАТОРЫ */
+
+.sample-indicator {
+    z-index: 1;
+
+    width: 2.6vw;
+    height: 2.6vw;
+
+    border-radius: 50%;
+}
+
+.si-balloon {
+    border: 0.4vw solid #fff;
+    background: #3B7DF3;
+
+    margin-left: -12%;
+}
+
+.si-ball {
+    border: 0.4vw solid #fff;
+    background: #FF6EC5;
+
+    margin-left: -12%;
+}
+
+.si-bell {
+    border: 0.4vw solid #fff;
+    background: #FF323A;
+
+    margin-left: -20%;
+    margin-top: 10%;
+}
+
+.si-ruler {
+    border: 0.4vw solid #fff;
+    background: #75E658;
+
+    margin-left: -35%;
+    margin-top: 10%;
+}
+
+.si-banana {
+    border: 0.4vw solid #fff;
+    background: #FFD33D;
+
+    margin-left: -12%;
+    margin-top: 6%;
 }

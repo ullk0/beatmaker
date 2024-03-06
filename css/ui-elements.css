@@ -46,7 +46,7 @@ p {
     width: 8vw;
     height: 8vw;
 
-    transition: 0.5s;
+    transition: 0.5s rotate;
 }
 
 .buttons h1 {
