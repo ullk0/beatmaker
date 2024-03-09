@@ -9,6 +9,8 @@
     height: 100vh;
 
     padding: 6%;
+
+    gap: 4%;
 }
 
 .card {
@@ -26,7 +28,7 @@
 
     padding: 2vw;
 
-    border: 0.4vw solid #000;
+    border: 0.3vw solid #000;
 
     background: #FFF;
 }
@@ -36,12 +38,18 @@
 
     box-sizing: border-box;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
     max-height: 100%;
     width: 50%;
     aspect-ratio: 3 / 4;
+    padding: 6% 4% 4% 4%;
 
     border-radius: 2.5vw;
-    border: 0.4vw solid #000;
+    border: 0.3vw solid #000;
 
     background: #FFF;
 }
@@ -52,4 +60,130 @@
     position: absolute;
     bottom: 3vw;
     left: 3vw;
+}
+
+/* ФОРМЫ */
+
+.m-shapes {
+    height: 100%;
+}
+
+.editor-shapes {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1vw;
+}
+
+.es-horizontal {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1vw;
+}
+
+.msh {
+    width: 50%;
+    object-fit: contain;
+}
+
+/* ЦВЕТА */
+
+.editor-coloring {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coloring-colors {
+    width: 50%;
+
+    flex-wrap: wrap;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.ec-col {
+    width: 4vw;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+}
+
+#ec-red {
+    background-color: #FF323A;
+}
+
+#ec-orange {
+    background-color: #FF8C35;
+}
+
+#ec-yellow {
+    background-color: #FFD33D;
+}
+
+#ec-pink {
+    background-color: #FF6EC5;
+}
+
+#ec-blue {
+    background-color: #3B7DF3;
+}
+
+#ec-green {
+    background-color: #75E658;
+}
+
+/* НАЛОЖЕНИЕ */
+
+.coloring-mix {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.cm-normal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+
+    border: 0.3vw solid #000;
+    border-radius: 2vw 0 0 2vw;
+}
+
+.cm-multiply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+
+    border: 0.3vw solid #000;
+    border-radius: 0 2vw 2vw 0;
+
+    margin-left: -0.3vw;
+}
+
+.svgnormal {
+    width: 68%;
+}
+
+.svgmultiply {
+    width: 68%;
 }
