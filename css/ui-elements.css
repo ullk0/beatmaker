@@ -15,7 +15,7 @@ h1 {
     font-weight: normal;
     line-height: 100%;
 
-    margin: 0;
+    margin: 0 0 0.8vw 0;
 }
 
 p {
@@ -56,18 +56,8 @@ p {
 
 .buttons:hover {
     rotate: -12deg;
-    transition: 0.5s;
+    transition: 0.5s rotate;
 }
-
-/* .buttons:hover {
-    border: 0.3vw solid #868686;
-    transition: .05s;
-}
-
-.buttons:hover h1 {
-    color: #868686;
-    transition: .05s;
-} */
 
 .button-active {
     background-color: #000000;
