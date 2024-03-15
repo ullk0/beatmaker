@@ -12,6 +12,8 @@
     padding: 3%;
 }
 
+/* ЗВУКОВЫЕ ДОРОЖКИ */
+
 .beat {
     box-sizing: border-box;
 
@@ -33,14 +35,20 @@
     background: #FFF;
 }
 
-/* ЗВУКОВЫЕ ДОРОЖКИ */
-
 .br {
     width: 100%;
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+
     justify-content: space-between;
+}
+
+.beatmaker-samplegroups {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
 }
 
 .tsg {
@@ -52,6 +60,7 @@
 .tr,
 .ts {
     width: 3vw;
+    height: 3vw;
     aspect-ratio: 1 /1;
 }
 
@@ -118,7 +127,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: -763px;
 
     max-height: 100%;
     width: 25%;
@@ -211,6 +219,8 @@
     height: 2.6vw;
 
     border-radius: 50%;
+
+    cursor: pointer;
 }
 
 .si-balloon {
@@ -249,4 +259,44 @@
 
     margin-left: -12%;
     margin-top: 6%;
+}
+
+/* БРЕЙКПОИНТЫ */
+
+@media (max-width: 640px) {
+
+    .beat {
+        padding: 4vw;
+        gap: 3.2vw;
+    }
+
+    .ts {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .tr {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .tsg {
+        gap: 1.8vw;
+    }
+
+    .beatmaker-samplegroups {
+        width: fit-content;
+        display: flex;
+        justify-content: flex-end;
+
+        margin-left: 0;
+        gap: 3.2vw;
+
+        flex-wrap: wrap;
+    }
+
+    .sample-indicator {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
 }

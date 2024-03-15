@@ -1,0 +1,60 @@
+.final {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 4%;
+}
+
+.done-back {
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+}
+
+.done-sound {
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
+}
+
+.done-play {
+    position: absolute;
+    bottom: 12vw;
+    right: 2vw;
+}
+
+.fin-card {
+    box-sizing: border-box;
+
+    padding: 2vw;
+    border: 0.3vw solid #000;
+
+    background: #FFF;
+}
+
+.done-svg {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 860px) {
+    .fin-card {
+        max-height: 100%;
+        width: 100%;
+        aspect-ratio: 3/4;
+    }
+}
+
+@media (min-width: 860px) {
+    .fin-card {
+        height: 100%;
+        max-width: 100%;
+        aspect-ratio: 3/4;
+    }
+}
