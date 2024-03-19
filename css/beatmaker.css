@@ -3,8 +3,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2%;
+    gap: 3%;
 
     width: 100vw;
     height: 100vh;
@@ -12,7 +11,7 @@
     padding: 3%;
 }
 
-/* ЗВУКОВЫЕ ДОРОЖКИ */
+/* БИТОЧЕК */
 
 .beat {
     box-sizing: border-box;
@@ -45,7 +44,6 @@
 }
 
 .beatmaker-samplegroups {
-    width: fit-content;
     display: flex;
     justify-content: flex-end;
     gap: 2vw;
@@ -61,7 +59,7 @@
 .ts {
     width: 3vw;
     height: 3vw;
-    aspect-ratio: 1 /1;
+    aspect-ratio: 1 / 1;
 }
 
 .tr {
@@ -112,8 +110,14 @@
 
 .back {
     position: absolute;
-    bottom: 6vw;
-    left: 6vw;
+    bottom: 2vw;
+    left: 2vw;
+}
+
+.done {
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
 }
 
 /* СЭМПЛЫ */

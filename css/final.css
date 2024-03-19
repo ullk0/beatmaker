@@ -18,13 +18,11 @@
 }
 
 .done-sound {
-    position: absolute;
     bottom: 2vw;
     right: 2vw;
 }
 
 .done-play {
-    position: absolute;
     bottom: 12vw;
     right: 2vw;
 }
@@ -41,6 +39,17 @@
 .done-svg {
     height: 100%;
     width: 100%;
+}
+
+.done-rightbuttons {
+    position: absolute;
+
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+
+    bottom: 2vw;
+    right: 2vw;
 }
 
 @media (max-width: 860px) {

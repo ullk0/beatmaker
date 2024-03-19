@@ -103,7 +103,7 @@
 }
 
 .coloring-colors {
-    width: 45%;
+    width: 50%;
 
     flex-wrap: wrap;
 
@@ -228,4 +228,48 @@
     background: #fff;
 
     margin-top: -1.3vw;
+}
+
+/* МОБИЛКА */
+
+@media (max-width: 640px) {
+
+    .cardeditor {
+        flex-direction: column;
+    }
+
+    .editor {
+        max-height: 100%;
+        max-width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+
+    .ec-col {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .coloring-colors {
+        width: 40%;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+
+        width: 9vw;
+        height: 9vw;
+        border: 0.3vw solid #000;
+        border-radius: 50%;
+        background: #fff;
+
+        margin-top: -4.4vw;
+    }
+
+    .card-back {
+        top: 2vw;
+    }
+
+    .card-done {
+        top: 2vw;
+    }
 }

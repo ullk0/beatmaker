@@ -82,3 +82,23 @@ p {
     width: 100%;
     aspect-ratio: 1/1;
 }
+
+/* МОБИЛКА */
+
+@media (max-width: 860px) {
+    .buttons {
+        padding: 3vw;
+
+        width: 14vw;
+        height: 14vw;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+}
